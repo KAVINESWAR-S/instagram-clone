@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "username": "kavin_eswar",
+      "userImage": "https://randomuser.me/api/portraits/men/1.jpg",
+      "location": "Pollachi, India",
+      "postImage": "https://source.unsplash.com/random/600x600/?coconut-farm",
+      "caption": "Exploring the beauty of my coconut farm 🌴 #nature #pollachi",
+      "likes": 120,
+      "isLiked": false,
+      "comments": [
+        {
+          "id": 1,
+          "username": "arun_coder",
+          "comment": "Wow! Looks amazing 🔥"
+        },
+        {
+          "id": 2,
+          "username": "tech_gamer",
+          "comment": "Pollachi vibes ✨"
+        }
+      ],
+      "createdAt": "2025-09-09T10:30:00"
+    },
+    {
+      "id": 2,
+      "username": "arun_coder",
+      "userImage": "https://randomuser.me/api/portraits/men/2.jpg",
+      "location": "Coimbatore, India",
+      "postImage": "https://source.unsplash.com/random/600x600/?nature",
+      "caption": "Evening ride through the hills 🚴‍♂️🌄",
+      "likes": 89,
+      "isLiked": true,
+      "comments": [
+        {
+          "id": 1,
+          "username": "kavin_eswar",
+          "comment": "Beautiful view! 🌿"
+        }
+      ],
+      "createdAt": "2025-09-08T18:15:00"
+    },
+    {
+      "id": 3,
+      "username": "tech_gamer",
+      "userImage": "https://randomuser.me/api/portraits/men/3.jpg",
+      "location": "Chennai, India",
+      "postImage": "https://source.unsplash.com/random/600x600/?beach",
+      "caption": "Weekend vibes 🏖️✨",
+      "likes": 205,
+      "isLiked": false,
+      "comments": [],
+      "createdAt": "2025-09-07T14:00:00"
+    }
+  ]
+}
+
+
