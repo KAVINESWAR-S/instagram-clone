@@ -53,5 +53,27 @@
       "comments": [],
       "createdAt": "2025-09-07T14:00:00"
     }
+  ],
+  "profile":{
+    "id": 1,
+    "username": "kavin_eswar",
+    "userImage": "src/assets/OIP.webp"
+  },
+  "suggestions":[
+    {"id": 1,
+    "username": "kavin_eswar",
+    "userImage": "src/assets/OIP.webp"},
+    {"id": 2,
+      "username": "arun_coder",
+      "userImage": "src/assets/OIP.webp"},
+      {"id": 3,
+      "username": "tech_gamer",
+      "userImage": "src/assets/OIP.webp"},
+      {"id": 4,
+      "username": "_gamer",
+      "userImage": "src/assets/OIP.webp"},
+      {"id": 5,
+      "username": "tech_r",
+      "userImage": "src/assets/OIP.webp"}
   ]
 }
