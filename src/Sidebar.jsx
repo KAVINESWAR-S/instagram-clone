@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "./assets/insta-tet.png"; 
 function Sidebar() {
   return (
-    <div className='m-2'>
+    <div className='m-2 position-fixed'>
         <div className='d-flex flex-column gap-3'>
             <img className="logo-text" src={logo} alt="" />
             <div><i className="bi bi-house"></i>Home</div>
