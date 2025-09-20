@@ -6,7 +6,7 @@ function Post() {
 
   useEffect(()=>{
     
-    fetch('http://localhost:5000/posts')
+    fetch('http://localhost:3000/posts')
     .then((res)=>res.json())
     .then((data=>setPosts(data)))
     .catch(err=>console.log(err))
@@ -15,7 +15,7 @@ function Post() {
 
     
   return (
-    <div className="d-flex justify-Content-Center">
+    <div className="d-flex justify-Content-Center" style={{paddingTop:"20px"}}>
       {posts.length>0 ?(
           <div>
             {posts.map((post)=>(

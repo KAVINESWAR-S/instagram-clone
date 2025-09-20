@@ -7,12 +7,12 @@ const [profile,setProfile] =useState(null);
 const[suggestions,setSuggestions]= useState([]);
 
 useEffect(()=>{
-  fetch('http://localhost:5000/profile')
+  fetch('http://localhost:3000/profile')
   .then(data=>data.json())
   .then(data=>setProfile(data))
   .catch(err=>console.log(err));
 
-  fetch('http://localhost:5000/suggestions')
+  fetch('http://localhost:3000/suggestions')
   .then(data=>data.json())
   .then(data=>setSuggestions(data))
   .catch(err=>console.log(err));
