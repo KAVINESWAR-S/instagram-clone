@@ -81,21 +81,21 @@
       "id": 1,
       "username": "kavin_eswar",
       "userImage": "src/assets/download.webp",
-      "storyImage": "src/assets/download.webp"
+      "storyImage": "/assets/download.webp"
     },
     {
       "id": 2,
       "username": "arun_coder",
       "userImage": "src/assets/farm.webp",
       "location": "Coimbatore, India",
-      "storyImage": "src/assets/farm.webp"
+      "storyImage": "/assets/G&k.jpg"
     },
     {
       "id": 3,
       "username": "tech_gamer",
       "userImage": "src/assets/OIP.webp",
       "location": "Chennai, India",
-      "storyImage": "src/assets/OIP.webp"
+      "storyImage": "/assets/OIP.webp"
     }
   ]
 }

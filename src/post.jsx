@@ -15,7 +15,7 @@ function Post() {
 
     
   return (
-    <div className="d-flex justify-Content-Center" style={{paddingTop:"20px"}}>
+    <div className="d-flex justify-content-center" style={{paddingTop:"20px"}}>
       {posts.length>0 ?(
           <div>
             {posts.map((post)=>(

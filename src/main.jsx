@@ -12,7 +12,7 @@ const router=createBrowserRouter(
         element:<App/>
       },
       {
-        path:'/story',
+        path:'/story/:id/:tot',
         element:<ViewStory/>
       }
     ]
